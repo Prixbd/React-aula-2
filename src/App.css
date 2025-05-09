@@ -1,0 +1,119 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/006/685/330/small_2x/japanese-style-element-background-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+
+h1 {
+  color: #4b6cb7;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+
+h2 {
+  color: #333;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e1e1e1;
+  margin: 20px 0;
+}
+
+
+input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 70%;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #4b6cb7;
+}
+
+
+button {
+  padding: 12px 20px;
+  background-color: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a5998;
+}
+
+
+ol {
+  list-style-position: inside;
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  color: #333;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+
+@media (max-width: 600px) {
+  .App {
+    width: 95%;
+    padding: 20px;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  
+  button {
+    width: 100%;
+  }
+}
